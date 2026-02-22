@@ -1,0 +1,8 @@
+# Ignore Java compiled files
+*.class
+
+# Ignore OS files
+.DS_Store
+
+# Ignore editor files
+.vscode/
