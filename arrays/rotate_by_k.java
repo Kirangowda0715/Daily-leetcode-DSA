@@ -33,7 +33,7 @@
  *
  */
 
-class Solution {
+class rotate_by_k {
 
     public void rotate(int[] nums, int k) {
 

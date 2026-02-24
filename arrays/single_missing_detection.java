@@ -46,7 +46,7 @@
 
 import java.util.HashMap;
 
-class Solution {
+class single_missing_detection {
 
     /* -----------------------------
        APPROACH 1: BRUTE FORCE

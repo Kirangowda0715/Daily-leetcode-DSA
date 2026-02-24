@@ -35,7 +35,7 @@
  *
  */
 
-class Solution {
+class first_occurance_of_string {
 
     /* -----------------------------
        APPROACH 1: NAIVE METHOD
