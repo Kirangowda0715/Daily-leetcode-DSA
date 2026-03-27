@@ -1,3 +1,17 @@
 {
-    "java.debug.settings.onBuildFailureProceed": true
+  "[java]": {
+    "editor.inlineSuggest.enabled": false,
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": false
+    },
+    "editor.suggest.showSnippets": true,
+    "editor.snippetSuggestions": "top",
+    "editor.tabCompletion": "onlySnippets"
+  },
+  "github.copilot.enable": {
+    "*": true,
+    "java": false
+  }
 }
