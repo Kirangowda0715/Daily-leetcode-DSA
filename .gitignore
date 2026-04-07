@@ -1,12 +1,62 @@
-﻿# Compiled Java and C++ artifacts
+﻿# --- Build artifacts ---
+# Compiled Java bytecode
 *.class
+
+# Compiled C/C++ binaries and objects
 *.exe
+*.out
 *.o
 *.obj
+
+# Logs
 *.log
-# VSCode settings/tasks and workspace
+
+# --- IDE / Editor ---
+# VS Code
 .vscode/
+
+# JetBrains
+.idea/
+
+# macOS
 .DS_Store
-# Build outputs
+
+# Windows
+Thumbs.db
+
+# Swap / temp files
+*~
+*.swp
+*.swo
+*.tmp
+
+# --- Language specific ---
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Java build directories
 bin/
 build/
+target/
+
+# Maven local repository (if present)
+.mvn/
+
+# --- Misc ---
+# Generated documentation and coverage
+coverage/
+docs/_build/
+
+# Sensitive files
+.env
+*.pem
+*.key
+
+# Keep source files only; allow local workspace settings to remain untracked
+# (If you prefer per-user settings, keep `.vscode/settings.json` in your local machine only.)
