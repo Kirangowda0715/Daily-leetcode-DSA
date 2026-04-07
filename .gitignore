@@ -1,0 +1,12 @@
+﻿# Compiled Java and C++ artifacts
+*.class
+*.exe
+*.o
+*.obj
+*.log
+# VSCode settings/tasks and workspace
+.vscode/
+.DS_Store
+# Build outputs
+bin/
+build/
