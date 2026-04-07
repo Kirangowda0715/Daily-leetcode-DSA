@@ -6,3 +6,5 @@
 
 # Ignore editor files
 .vscode/
+# Ingore specific settings file
+settings.json

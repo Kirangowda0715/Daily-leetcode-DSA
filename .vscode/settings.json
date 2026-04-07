@@ -1,17 +1,18 @@
 {
+  "editor.inlineSuggest.enabled": false,
+  "editor.quickSuggestions": false,
+  "editor.suggestOnTriggerCharacters": false,
+  "github.copilot.enable": false,
+  "github.copilot.inlineSuggest.enable": false,
+  "[c]": {
+    "editor.inlineSuggest.enabled": false,
+    "editor.quickSuggestions": false
+  },
   "[java]": {
     "editor.inlineSuggest.enabled": false,
-    "editor.quickSuggestions": {
-      "other": true,
-      "comments": false,
-      "strings": false
-    },
-    "editor.suggest.showSnippets": true,
+    "editor.quickSuggestions": false,
+    "editor.suggest.showSnippets": false,
     "editor.snippetSuggestions": "top",
-    "editor.tabCompletion": "onlySnippets"
-  },
-  "github.copilot.enable": {
-    "*": true,
-    "java": false
+    "editor.tabCompletion": "off"
   }
 }
