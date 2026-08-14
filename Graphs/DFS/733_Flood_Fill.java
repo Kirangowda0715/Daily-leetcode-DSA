@@ -51,8 +51,7 @@ class Solution {
         return image;
     }
 
-    private void dfs(int i, int j, int[][] image,
-                     int org, int color) {
+    private void dfs(int i, int j, int[][] image, int org, int color) {
 
         int m = image.length;
         int n = image[0].length;
@@ -106,7 +105,7 @@ class Solution {
 
         int[][] directions = {
             {-1, 0}, // Up
-            {1, 0},  // Down
+            {1, 0},  // Dow
             {0, -1}, // Left
             {0, 1}   // Right
         };
